@@ -1,0 +1,46 @@
+body {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.navigation {
+  width: 100%;
+  top: 20px;
+  position: absolute;
+  background: transparent !important;
+}
+
+.hero_img {
+  width: 50px;
+}
+
+.social_section {
+  border: 1px solid black;
+}
+.social_section div {
+  font-size: 12px;
+  line-height: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border: 0.1px solid lightgrey;
+}
+.social_section a:hover {
+  text-decoration: underline !important;
+  color: lightgrey;
+}
+.footer {
+  background-color: lightgray;
+  padding: 3rem;
+}
+
+.scroll_to_top {
+  position: absolute;
+  bottom: 20px;
+  font-size: 50px;
+  right: 20px;
+  font-weight: bold;
+}
+.scroll_to_top button {
+  border-radius: 45%;
+}
